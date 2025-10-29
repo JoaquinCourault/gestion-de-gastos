@@ -1,0 +1,65 @@
+# ==========================================
+# 📦 Node / Next.js .gitignore
+# ==========================================
+
+# Dependencias
+/node_modules
+
+# Builds de Next.js
+/.next
+/out
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos temporales y caches
+/.turbo
+/.vercel
+/.idea
+/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Archivos de lock (opcional, según si compartís o no el lockfile)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Archivos de cobertura de tests
+coverage
+*.lcov
+
+# Archivos generados por TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Archivos de exportación o preview
+/.exported
+/.next/cache
+
+# Configuración local
+*.local
+
+# ==========================================
+# 🗂️ Archivos y carpetas de datos locales
+# ==========================================
+
+# Base de datos o recursos locales
+/resources/
